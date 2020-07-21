@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var velocity = Vector2.ZERO
 var state = MOVE
-var roll_vector = Vector2.LEFT
+var roll_vector = Vector2.DOWN
 
 enum {
 	MOVE,
